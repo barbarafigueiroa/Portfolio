@@ -10,6 +10,7 @@ h1{
     color: rgb(31, 172, 153);
     text-shadow: 2px 2px 5px rgba(52, 168, 139, 0.534);
     
+    
 }
 /*HEADER*/
 .header-container{
@@ -25,18 +26,22 @@ h1{
     justify-content: center;
     align-items: flex-start;
     box-sizing: border-box;
-    padding: 0 112px;
+    padding: 0 200px ;
     position: relative;
+    
 
 }
 h1{
-    font-size: 50px;
+    font-size: 80px;
     text-transform: uppercase;
     letter-spacing: 4px;
+    
 }
 h2{
     text-transform: uppercase;
     letter-spacing: 4px;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px  rgba(148, 96, 197, 0.404);
 
 }
 .social-media{
@@ -48,7 +53,7 @@ h2{
     text-decoration: none;
     color: rgb(102, 53, 148);
     padding: 1rem 4rem;
-    border: 1px solid violet;
+    border: 1px solid rgb(189, 104, 189);
     min-width: 4rem;
     display: flex;
     align-items: center;
@@ -100,7 +105,7 @@ a:hover{
     top: 66px;
     transform: rotate(0);
 }
-#toogle{
+#toggle{
     display: none;
 }
 .menu{
@@ -111,9 +116,9 @@ a:hover{
     height: 4px;
     width: 10px;
     border-radius: 50%;
-    box-shadow: 0px 0px 0px 0px white;
+    box-shadow: 0px 0px 0px 0px rgba(214, 255, 241, 0.801);
     z-index: -1;
-    transition: 400ms ease-in-out 0s;
+    transition: 600ms ease-in-out 0s;
 }
 .menu-items{
     position: fixed;
@@ -144,17 +149,17 @@ a:hover{
 
 }
 /* ANIMAÇÃO DO MENU*/
-#toogle:checked + .checkbox .trace:nth-child(1){
+#toggle:checked + .checkbox .trace:nth-child(1){
     transform: rotate(45deg);
     top: 47px;
 }
-#toogle:checked + .checkbox .trace:nth-child(2){
+#toggle:checked + .checkbox .trace:nth-child(2){
     transform: translate(-100px);
     width: 30px;
     visibility: hidden;
     opacity: 0;
 }
-#toogle:checked + .checkbox .trace:nth-child(3){
+#toggle:checked + .checkbox .trace:nth-child(3){
     transform: rotate(-45deg);
     top: 48px;
 }
@@ -190,7 +195,7 @@ a:hover{
     width: 300px;
     height: 300px;
     border-radius: 100%;
-    margin: 3rem 0 0 0;
+    margin: 6rem 0 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -204,8 +209,10 @@ a:hover{
 
 .card-text {
     width: 40%;
-    letter-spacing: 1px;
-    color: rgb(109, 54, 109);
+    letter-spacing: 2px;
+    color: rgb(153, 79, 153);
+    font-size: 20pt;
+    font: bold;
 }
 .card-wrapper {
     text-align: center;
@@ -269,4 +276,5 @@ a:hover{
     align-items: center;
     justify-content: center;
     color: rgb(91, 51, 129);
+    font-size: 20px;
 }
