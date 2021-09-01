@@ -17,7 +17,7 @@ h1{
     height: 100vh;
     width: 100vw;
     background-color: rgb(196, 242, 243);
-    background-image: url('./imagens/backgroundimage.png');/* foto de fundo ("./foto\nomedafoto.png")*/
+    background-image: url('./imagens/foto-bg-2.png');/* foto de fundo ("./foto\nomedafoto.png")*/
     background-repeat: no-repeat;/* comando para não repetir a imagem*/
     background-position: right;/* posição da imagem na página*/
     background-size: 800px;/* tamanho da imagem */
@@ -200,7 +200,7 @@ a:hover{
     align-items: center;
     justify-content: center;
     background-color: rgb(196, 242, 243);
-    background-image: url('./imagens/projetosimagem.png');
+    background-image: url('./imagens/img-card.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
